@@ -3,7 +3,13 @@
 @section('contents')
 
 <div class="container">
-    Hola hdp
+    <h3>
+        Chat 
+    </h3>
+    @livewire("chat-form")
+    @livewire("chat-list")
+
+
 </div>
 
 @endsection('contents')
